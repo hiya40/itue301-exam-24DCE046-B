@@ -36,6 +36,12 @@ The backend starts with `node server.js` and serves port `5000` by default.
 
 The MongoDB schema models are in `backend/models`. `POST /api/v1/mongodb/demo` demonstrates a Mongoose insert and returns a meaningful validation response for invalid patient data.
 
+## Required Environment Variables
+
+```env
+MONGO_URI=mongodb://127.0.0.1:27017/medcare_plus
+PORT=5000
+
 ## API Endpoints
 
 - `GET /api/v1/appointments`: returns appointments.
@@ -47,4 +53,4 @@ The MongoDB schema models are in `backend/models`. `POST /api/v1/mongodb/demo` d
 
 Create three screenshots for the required report: the React app in the browser, a successful API request in Postman or Thunder Client, and the created MongoDB document in Compass or Atlas. Save the final PDF as `[RollNo]_SetA_Report.pdf`.
 
-Before publishing, replace the repository name placeholder with `itue301-exam-[your-roll-number]-[batch]`, make the GitHub repository public, and submit its URL and final commit SHA.
+
